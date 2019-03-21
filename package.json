@@ -1,0 +1,32 @@
+{
+  "name": "metasite-cli",
+  "version": "0.1.4",
+  "description": "a commandline tool for metasite",
+  "main": "metasite.js",
+  "bin": {
+    "metasite": "./metasite.js"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "datapay": "0.0.12",
+    "ejs": "^2.6.1",
+    "inquirer": "^6.2.2",
+    "metasite-hammer": "^1.0.8",
+    "metasite-loader": "^1.1.2",
+    "node-jsencrypt": "^1.0.0",
+    "open": "0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "metasite",
+    "bsv",
+    "bitcoin",
+    "website",
+    "metanet"
+  ],
+  "author": "Monkeylord",
+  "license": "MIT"
+}
